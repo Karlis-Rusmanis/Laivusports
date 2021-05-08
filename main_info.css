@@ -1,0 +1,94 @@
+#pages {
+  text-align: center;
+}
+
+.price-page {
+  max-width: 90%;
+}
+
+.divider {
+  margin: auto;
+  width: 85%;
+  border: solid black 1px;
+}
+
+.row {
+  display: flex;
+  max-width: 100%;
+}
+
+.left {
+  flex: 60%;
+}
+
+.right {
+  flex: 40%;
+  padding-left: 4%;
+}
+
+h2 {
+  margin-top: 3em;
+  margin-left: 8%;
+}
+
+h5 {
+  margin-top: 2em;
+  margin-left: 8%;
+}
+
+p {
+  margin-left: 8%;
+}
+
+#fb-icon {
+  margin-left: 8%;
+}
+
+#epasts {
+  margin-top: 0%;
+}
+
+#rekviziti {
+  margin-top: 2.5em;
+  margin-bottom: 0.9em;
+}
+
+#brendi {
+  margin-top: 1em;
+  text-align: center;
+  margin-left: 0;
+}
+
+.brands {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  max-width: 85%;
+  height: 25%;
+}
+
+.brand_logo {
+  display: flex;
+  flex: 20%;
+  flex-grow: 1 1 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.brand_logo img {
+  width: 80%;
+}
+
+@media (max-width: 550px) {
+  .brands {
+    flex-direction: column;
+    height: 70%;
+    text-align: center;
+  }
+  .brand_logo img {
+    width: 35%;
+  }
+  #brendi {
+    margin-bottom: 5%;
+  }
+}

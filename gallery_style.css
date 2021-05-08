@@ -1,0 +1,90 @@
+body {
+  margin: 0px;
+  height: 100vh;
+  background: rgb(20, 20, 20);
+}
+
+.carousel-container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel-slide {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#prev_btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  left: 3%;
+  font-size: 50px;
+  color: #fff;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#prev_btn:hover {
+  opacity: 1;
+}
+
+#next_btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  right: 3%;
+  font-size: 50px;
+  color: #fff;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#next_btn:hover {
+  opacity: 1;
+}
+
+.icon-cancel {
+  position: absolute;
+  top: 5%;
+  z-index: 10;
+  right: 3%;
+  font-size: 40px;
+  color: #fff;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.icon-cancel:hover {
+  opacity: 1;
+}
+
+@media (min-width: 1400px) {
+  .carousel-container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 600px) {
+  .icon-cancel {
+    font-size: 20px;
+  }
+  #next_btn {
+    font-size: 25px;
+  }
+  #prev_btn {
+    font-size: 25px;
+  }
+}

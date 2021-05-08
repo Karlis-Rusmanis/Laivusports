@@ -1,0 +1,97 @@
+body {
+  background: #4c5d6a;
+}
+
+#app {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  padding-top: 12%;
+  margin-bottom: 5%;
+}
+
+#update-list {
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 5px 20px;
+  margin: 50px 0px;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+td {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.3);
+  color: #000;
+  border-bottom: 5px solid #4c5d6a;
+  padding: 5px;
+}
+
+.border-white {
+  border-bottom: 5px solid #4c5d6a !important;
+  border-right: 1px solid#fff;
+}
+
+td img {
+  width: 90%;
+}
+
+th {
+  color: #fff;
+  font-size: 20px;
+  font-weight: normal;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#update-list:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+@media (max-width: 1000px) {
+  h1 {
+    padding-top: 15%;
+  }
+}
+
+@media (max-width: 750px) {
+  h1 {
+    padding-top: 20%;
+  }
+  table {
+    display: block;
+    overflow-x: scroll;
+    white-space: nowrap;
+  }
+  img:hover {
+    position: relative;
+    width: 800%;
+    z-index: 10;
+  }
+}
+
+@media (max-width: 550px) {
+  h1 {
+    padding-top: 28%;
+  }
+}
+
+@media (max-width: 400px) {
+  h1 {
+    padding-top: 35%;
+  }
+}
+
+@media (max-width: 350px) {
+  img:hover {
+    width: 600%;
+  }
+}
