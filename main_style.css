@@ -82,12 +82,16 @@
   }
 }
 
-@media (max-height: 565px) {
+@media (max-height: 560px) {
   #main-text {
     display: none;
   }
   #prices {
     display: none;
+  }
+  #laivu-logo {
+    height: 25%;
+    width: 25%;
   }
 }
 
