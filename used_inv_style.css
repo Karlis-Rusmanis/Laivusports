@@ -70,6 +70,7 @@ th {
     display: block;
     overflow-x: scroll;
     white-space: nowrap;
+    margin-left: 5px;
   }
   img:hover {
     position: relative;
