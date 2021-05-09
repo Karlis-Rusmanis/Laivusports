@@ -28,15 +28,15 @@ section {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+
   color: #fff;
-  visibility: hidden;
-  opacity: 0;
+
+  opacity: 1;
   transition: opacity 0.3s, visibility 0.3s;
 }
 
 .overlay p {
-  font-size: 20px;
+  font-size: 25px;
   margin: 0;
   position: absolute;
   top: 50%;
@@ -45,8 +45,7 @@ section {
 }
 
 #gallery:hover .overlay {
-  visibility: visible;
-  opacity: 1;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 #details {
@@ -79,5 +78,11 @@ p {
   }
   #details {
     text-align: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .overlay p {
+    font-size: 18px;
   }
 }
