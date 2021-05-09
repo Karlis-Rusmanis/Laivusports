@@ -78,8 +78,8 @@ $page = "main";
 
                     <label for="topic">Temats</label>
                     <select id="topic" name="topic">
-                        <option value="iegaade">Preču iegāde</option>
-                        <option value="jaut_par_preci">Jautājums par preci</option>
+                        <option value="Preču iegāde">Preču iegāde</option>
+                        <option value="Jautājums par preci">Jautājums par preci</option>
                         <option value="cits">Cits</option>
                     </select>
 
